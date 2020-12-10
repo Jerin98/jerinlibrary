@@ -6,6 +6,7 @@ signupRouter.get('/',function(req,res){
     res.render("signup",
     {
         nav,
+        title:'SIGNUP'
         
     });
 });

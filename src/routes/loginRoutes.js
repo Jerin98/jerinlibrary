@@ -6,6 +6,7 @@ loginRouter.get('/',function(req,res){
     res.render("login",
     {
         nav,
+        title:'LOGIN'
         
     });
 });
